@@ -1,0 +1,14 @@
+header(
+logo
+links
+carts
+)
+ Body(
+ ReataurantsContainer
+ RestaurantrsCard
+ )
+ Footer(
+ Copyright
+ ImpLinks
+ )
+

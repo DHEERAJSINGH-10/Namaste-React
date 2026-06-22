@@ -1,9 +1,11 @@
 import './Header.css'
+import {LOGO_URL} from './../utils/links';
+
 export const HeaderComponent = ()=>{
     return (
         <div className="header">
             <div className="logo-container">
-                <img src="/src/assets/logo.jpg" alt="logo"/>
+                <img src={LOGO_URL} alt="logo"/>
             </div>
             <div className="header-links">
                 <ul>

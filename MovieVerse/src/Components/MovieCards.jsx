@@ -3,11 +3,7 @@ import { IMG_URL } from "../utils/links"
 import styles from './Movie.module.css'
 import { Link, useParams } from 'react-router-dom';
 export const MovieCards = ({movies}) => {
-  
-   
-  
     return (
- 
   <div className={styles.MovieTile}>
     {movies.map((movie)=>(
               <Link  to ={`/moviedetails/${movie.id}`} key={movie.id}>

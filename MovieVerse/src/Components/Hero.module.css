@@ -1,0 +1,10 @@
+.Hero_Con{
+    background-color: black;
+    width:100%;
+    height: auto;
+    padding:1rem 0rem 0rem 0rem;
+    text-align: start;
+}
+.btn{
+    margin-left:5rem;
+}
